@@ -10,7 +10,7 @@ CLI for generating ASCII art with Sub-Zero font
 ```bash
 typez typez -SS
 ```
-```
+```text
  ______ __  __ ______ ______ ______  
 /\__  _\\ \_\ \\  == \\  ___\\___  \ 
 \/_/\ \/ \____ \\  _-/ \  __\/_/  /__
@@ -19,7 +19,7 @@ typez typez -SS
 ```
 
 ## Credit
-```
+```text
 -> Conversion to FigLet font by MEPH. (Part of ASCII Editor Service Pack I)
 (http://studenten.freepage.de/meph/ascii/ascii/editor/_index.htm)
 -> Defined: ASCII code alphabet
@@ -55,7 +55,7 @@ To generate from command line input:
 ```bash
 typez "Hello"
 ```
-```
+```text
  __  __     ______     __         __         ______  
 /\ \_\ \   /\  ___\   /\ \       /\ \       /\  __ \ 
 \ \  __ \  \ \  __\   \ \ \____  \ \ \____  \ \ \/\ \
@@ -71,7 +71,7 @@ typez -i - < /path/to/file.txt
 ```
 
 Other CLI options:
-```
+```text
 -s/--space   N   Number of spaces for the space character (default: 5)
 -b/--between N   Number of spaces between characters (default: 2)
 -S/--squash      Squash the characters

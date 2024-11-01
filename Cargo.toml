@@ -1,0 +1,14 @@
+[package]
+name = "typez"
+version = "1.0.0"
+edition = "2021"
+description = "tool for generating ascii art with sub-zero"
+repository = "https://github.com/Pistonite/typez"
+license = "MIT"
+authors = ["Pistonight <pistonknight@outlook.com>"]
+keywords = ["ascii", "art", "sub-zero", "text", "cli"]
+categories = ["command-line-utilities"]
+exclude = [".github/**/*", "Taskfile.yml"]
+
+[dependencies]
+clap = { version = "4.5.20", features = ["cargo", "derive"] }
